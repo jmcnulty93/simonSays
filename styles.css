@@ -1,0 +1,99 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: pink;
+}
+
+h3 {
+  color: purple;
+}
+
+h5 {
+  color: purple;
+}
+
+.play {
+  background-color: purple;
+  width: 200px;
+}
+
+.colorB {
+  width: 200px;
+  height: 200px;
+  border-radius: 0% 0% 0% 50%;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.titles {
+  color: pink;
+  display: none;
+}
+
+.boxesLevel {
+  background-color: pink;
+  height: 100px;
+  width: 100px;
+}
+
+.boxes {
+  background-color: pink;
+  height: 100px;
+  width: 600px;
+}
+
+.lightUp {
+  background-color: pink;
+  opacity: 2.0;
+}
+
+.greenNeon{
+  background-color: #49fb35;
+}
+
+.redNeon{
+  background-color: #FFD0B9;
+}
+
+.blueNeon{
+  background-color: #76D7EA;
+}
+
+.yellowNeon{
+  background-color: orange;
+}
+
+#choice {
+  display: none;
+}
+#level {
+  display: none;
+}
+#onOff {
+  display: none;
+}
+#simonListOutput {
+  display: none;
+}
+#simonListInput {
+  display: none;
+}
+#checkWin {
+  display: none;
+}
