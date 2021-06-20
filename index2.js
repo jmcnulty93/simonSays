@@ -41,7 +41,7 @@ function simonSays(){
 
 
   // function for buttom sound
- function simonSound(color){
+  function simonSound(color){
 
     var dada = window.Audio || window.webkitAudio;
 
@@ -63,8 +63,7 @@ function simonSays(){
         yellowSound.play();
         break
       }
-    }  
-
+    }
 
     //new function for button annimation
     function simonLightNeon(color){
@@ -319,3 +318,4 @@ function simonSaysDoThis(i){
 //replicateThis();
 
 //winCheck();
+
