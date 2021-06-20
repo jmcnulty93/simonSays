@@ -41,26 +41,30 @@ function simonSays(){
 
 
   // function for buttom sound
-  function simonSound(color){
+ function simonSound(color){
+
+    var dada = window.Audio || window.webkitAudio;
+
     switch(color){
       case "green":
-        var greenSound = new Audio("sounds/greenSound.mp3");
+        var greenSound = new dada("sounds/greenSound.mp3");
         greenSound.play();
         break
       case "red":
-        var redSound = new Audio("sounds/redSound.mp3");
+        var redSound = new dada("sounds/redSound.mp3");
         redSound.play();
         break
       case "blue":
-        var blueSound = new Audio("sounds/blueSound.mp3");
+        var blueSound = new dada("sounds/blueSound.mp3");
         blueSound.play();
         break
       case "yellow":
-        var yellowSound = new Audio("sounds/yellowSound.mp3");
+        var yellowSound = new dada("sounds/yellowSound.mp3");
         yellowSound.play();
         break
       }
-    }
+    }  
+
 
     //new function for button annimation
     function simonLightNeon(color){
